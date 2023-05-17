@@ -5,8 +5,8 @@ import {FaShoppingCart} from 'react-icons/fa'
 const Cartwidget = () => {
   return (
     <div className="cart-widget">
-     <FaShoppingCart size={'25'} color={'green'}/>
-      <span className="cart-notification" style={{color: 'white'}}>25</span>
+     <FaShoppingCart size={'25'} color={'white'}/>
+      <span className="cart-notification fs-4" style={{color: 'white'}}>2</span>
     </div>
 
   )
